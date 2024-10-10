@@ -1,0 +1,15 @@
+@import url(`);
+
+.box{
+    width: 100%;
+    height: 100px;
+    background-color: rbg(86, 126, 35);
+}
+p{
+    background-color: rgba(136,50, 86, 1);
+    color: #fff;
+    font-size: 36px; /*Altera o tamanho da fonte*/
+    font-weight: 400; /*Altura a espressura da fonte*/
+    font-family: "Sevillana", cursive;
+    text-align: center;
+}

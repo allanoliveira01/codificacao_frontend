@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+
+#titulo{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div > nav{
+    background-color: green;
+}
+
+.paragrafo strong{
+    background-color: aqua;
+}
+
+h1+p{
+    background-color: chartreuse;
+}
+
+h1+p, h1+p+p+p{
+    background-color: chartreuse;
+}
+
