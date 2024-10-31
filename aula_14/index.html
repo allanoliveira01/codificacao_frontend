@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1° sobre JS</title>
+</head>
+<body>
+
+    <h1 id="titulo">Meu titulo</h1>
+    <p class="paragrafo">Meu paragrafo</p>
+    <a href="#" class="link">Meu link</a>
+    <a href="#" id="link">Meu link2</a>
+
+    <div class="container">
+
+    </div>
+
+
+    <script>
+        const titulo = document.getElementById("titulo")
+        console.log(titulo)
+        const paragrafo = document.getElementsByClassName("paragrafo")
+        console.log(paragrafo)
+        const link = document.querySelector(".link")
+        console.log(link)
+        const linkId = document.querySelector("#link")
+        console.log(link)
+
+        //Adiciona elemento HTML no documento HTML
+
+        document.querySelector(".container").innerHTML = "Novo Conteúdo!"
+        link.innerHTML =     `<ul>
+                                    <li> Feijão </li>
+                                    <li> Arroz </li>
+                                    <li> Macarrão </li>
+                                    </ul>`
+
+        //Adiciona conteúdo de texto a um elemento
+        document.querySelector(".paragrafo").textContent = "Esse é o conteúdo sobre javaScript com DOM"
+
+    </script>
+</body>
+</html>

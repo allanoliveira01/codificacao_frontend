@@ -1,0 +1,112 @@
+.alagoas {
+    display: flex;
+    border: 3px solid black;
+    width: 600px;
+}
+
+.alagoas-1 {
+    width: 200px;
+    height: 400px;
+    background-color: red;
+}
+
+.alagoas-2 {
+    width: 200px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("Brasão_Alagoas.png");
+}
+
+.alagoas-3 {
+    width: 200px;
+    height: 400px;
+    background-color: blue;
+}
+
+.franca {
+    display: flex;
+    border: 3px solid black;
+    width: 600px;
+
+
+}
+
+.franca-1 {
+    width: 200px;
+    height: 400px;
+    background-color: red;
+}
+
+.franca-2 {
+    width: 200px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.franca-3 {
+    width: 200px;
+    height: 400px;
+    background-color: blue;
+}
+
+
+
+
+.italia {
+    display: flex;
+    border: 3px solid black;
+    width: 600px;
+}
+
+.italia-1 {
+    width: 200px;
+    height: 400px;
+    background-color: green;
+}
+
+.italia-2 {
+    width: 200px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.italia-3 {
+    width: 200px;
+    height: 400px;
+    background-color: red;
+}
+
+.alemanha {
+
+    border: 3px solid black;
+    width: 600px;
+}
+
+.alemanha-1 {
+    width: 600px;
+    height: 100px;
+    background-color: black;
+}
+
+.alemanha-2 {
+    background-color: red;
+    width: 600px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.alemanha-3 {
+    width: 600px;
+    height: 100px;
+    background-color: yellow;
+
+}

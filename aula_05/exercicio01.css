@@ -1,0 +1,22 @@
+p {
+    color: white;
+}
+
+body {
+    background-image: url(black-and-white-astronaut-3840-x-2160-6yhona4hnd1faw7v.jpg);
+    background-repeat: no-repeat;
+    background-size: 210vh;
+    color: white;
+}
+
+.container {
+    background-color: rgb(21, 152, 240);
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+}
+
+.paragrafo {
+    background-color: gray;
+}

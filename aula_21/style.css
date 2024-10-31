@@ -1,0 +1,35 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: burlywood;
+
+}
+
+input{
+
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid chocolate;
+    outline-color: chocolate;
+}
+
+input:focus{
+    outline: nome;
+}
+
+.erro{
+    color: red;
+    display: contents;
+}
+
+.erro-idade{
+    color: red;
+    display: contents;
+}
+
+.erro-sobrenome{
+    color: red;
+    display: contents;
+}
+
